@@ -5,7 +5,6 @@
 ---
 <div>
 <h1 align="left" style="display: flex;"> Celestia node Setup for Mocha-4 Testnet and Celestia mainnet</h1>
-<img src="https://avatars.githubusercontent.com/u/54859940?s=200&v=4"  style="float: right;" width="100" height="100"></img>
 </div>
 
 ---
@@ -18,6 +17,9 @@ source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/insta
 ~~~bash
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installmain.sh)
 ~~~
+
+---
+
 # 🛠️ Full node Install (testnet)
 ~~~bash
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installfulltest.sh)
@@ -26,6 +28,9 @@ source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/insta
 ~~~bash
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installfullmain.sh)
 ~~~
+
+---
+
 # 🛠️ Bridge node Install (testnet)
 ~~~bash 
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installbridgetest.sh)
