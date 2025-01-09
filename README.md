@@ -39,3 +39,31 @@ source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/insta
 ~~~bash 
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installbridgemain.sh)
 ~~~
+
+---
+---
+
+# 📋 Upgrade celestia test app
+~~~bash
+source <(curl -s https://raw.githubusercontent.com/chaindigital/celestia/main/upgradeapp.sh)
+~~~
+# 📋 Upgrade celestia main app 
+~~~bash
+source <(curl -s https://raw.githubusercontent.com/chaindigital/celestia/main/upgradeappmain.sh)
+~~~
+
+---
+
+# 📋 Upgrade celestia test node
+~~~bash
+source <(curl -s https://raw.githubusercontent.com/chaindigital/celestia/main/upgradenode.sh)
+~~~
+# 📋 Upgrade celestia main node
+~~~bash
+source <(curl -s https://raw.githubusercontent.com/chaindigital/celestia/main/upgradenodemain.sh)
+~~~
+
+---
+
+## 📚 Additional Information
+For more details, visit the (https://services.validexis.com/mainnets/celestia) or open an issue for questions or support.
