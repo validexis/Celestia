@@ -8,9 +8,6 @@ eval $(echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee /etc/profile.d/gola
 eval $(echo 'export PATH=$PATH:$HOME/go/bin' | tee -a $HOME/.profile)
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 source $HOME/.bash_profile
-git clone https://github.com/celestiaorg/celestia-app && cd celestia-app
-git checkout v3.0.0-mocha
-make install
 
 cd $HOME
 rm -rf celestia-app
