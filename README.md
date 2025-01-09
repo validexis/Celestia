@@ -45,22 +45,22 @@ source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/insta
 
 # 📋 Upgrade celestia test app
 ~~~bash
-source <(curl -s https://raw.githubusercontent.com/chaindigital/celestia/main/upgradeapp.sh)
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgradeapp.sh)
 ~~~
 # 📋 Upgrade celestia main app 
 ~~~bash
-source <(curl -s https://raw.githubusercontent.com/chaindigital/celestia/main/upgradeappmain.sh)
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgradeappmain.sh)
 ~~~
 
 ---
 
 # 📋 Upgrade celestia test node
 ~~~bash
-source <(curl -s https://raw.githubusercontent.com/chaindigital/celestia/main/upgradenode.sh)
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgradenode.sh)
 ~~~
 # 📋 Upgrade celestia main node
 ~~~bash
-source <(curl -s https://raw.githubusercontent.com/chaindigital/celestia/main/upgradenodemain.sh)
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgradenodemain.sh)
 ~~~
 
 ---
