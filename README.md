@@ -29,8 +29,8 @@ The **Bridge Node** acts as a connector between the testnet and external network
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/setup_bridge_testnet.sh)
 ```
 
-### 🔄 Upgrade Testnet Application
-Upgrade the Celestia application on your testnet node to the latest version.
+### 🔄 Upgrade Testnet App
+Upgrade the Celestia app on your testnet node to the latest version.
 ```bash
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgrade_testnet_app.sh)
 ```
@@ -63,8 +63,8 @@ Configure a **Bridge Node** to facilitate interoperability between the mainnet a
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/setup_bridge_mainnet.sh)
 ```
 
-### 🔄 Upgrade Mainnet Application
-Keep your Celestia application on the mainnet updated with the latest features and security fixes.
+### 🔄 Upgrade Mainnet App
+Keep your Celestia app on the mainnet updated with the latest features and security fixes.
 ```bash
 source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgrade_mainnet_app.sh)
 ```
