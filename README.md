@@ -77,6 +77,16 @@ source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgra
 
 ---
 
+## 🔐 Security and Monitoring
+
+### 🔒 Validator Security
+For best practices and detailed instructions on securing your validator nodes, visit our guide on [Validator Security: Our Approach and Protection Measures](https://services.validexis.com/validator-security-our-approach-and-protection-measures).
+
+### 📊 Node Monitoring
+Set up monitoring to ensure your nodes are running optimally. Check out the [Node Monitoring Guide](https://services.validexis.com/monitoring) for tools and instructions.
+
+---
+
 ## 📚 Additional Information
 For more details, visit the [Celestia Documentation](https://services.validexis.com/mainnets/celestia) or open an issue for questions or support.
 
