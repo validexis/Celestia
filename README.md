@@ -81,7 +81,7 @@ source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgra
 For more details, visit the [Celestia Documentation](https://services.validexis.com/mainnets/celestia) or open an issue for questions or support.
 
 ### Useful Resources
-- [Celestia Whitepaper](https://celestia.org/whitepaper) - Learn more about the architecture and vision behind Celestia.
+- [Celestia Whitepaper](https://celestia.org) - Learn more about the architecture and vision behind Celestia.
 - [Community Forum](https://forum.celestia.org) - Join discussions with other developers and node operators.
-- [Developer Tools](https://docs.celestia.org/tools) - Explore tools and libraries to interact with Celestia.
+- [Developer Tools](https://docs.celestia.org) - Explore tools and libraries to interact with Celestia.
 
