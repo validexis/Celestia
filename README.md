@@ -4,66 +4,84 @@
 
 ---
 <div>
-<h1 align="left" style="display: flex;"> Celestia node Setup for Mocha-4 Testnet and Celestia mainnet</h1>
+<h1 align="left" style="display: flex;"> Celestia Node Setup</h1>
 </div>
 
 ---
 
-# 🛠️ Validator Node Install (testnet)
-~~~bash
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installtest.sh)
-~~~
-# 🛠️ Validator Node Install (mainnet)
-~~~bash
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installmain.sh)
-~~~
+## 🌟 Testnet Setup
+
+### ⚙️ Validator Node Setup
+This script sets up a **Validator Node** on the Mocha-4 testnet, ensuring secure and reliable participation in the network.
+```bash
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/setup_validator_testnet.sh)
+```
+
+### ⚙️ Full Node Setup
+Use this command to set up a **Full Node** on the testnet. Full nodes store the entire blockchain and validate transactions.
+```bash
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/setup_fullnode_testnet.sh)
+```
+
+### ⚙️ Bridge Node Setup
+The **Bridge Node** acts as a connector between the testnet and external networks. Set it up using the following script:
+```bash 
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/setup_bridge_testnet.sh)
+```
+
+### 🔄 Upgrade Testnet Application
+Upgrade the Celestia application on your testnet node to the latest version.
+```bash
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgrade_testnet_app.sh)
+```
+
+### 🔄 Upgrade Testnet Node
+Ensure your testnet node is up-to-date with the latest protocol updates.
+```bash
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgrade_testnet_node.sh)
+```
 
 ---
 
-# 🛠️ Full node Install (testnet)
-~~~bash
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installfulltest.sh)
-~~~
-# 🛠️ Full node Install (mainnet)
-~~~bash
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installfullmain.sh)
-~~~
+## 🌟 Mainnet Setup
 
----
+### ⚙️ Validator Node Setup
+Set up a **Validator Node** on the Celestia mainnet to participate in securing the network and earning rewards.
+```bash
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/setup_validator_mainnet.sh)
+```
 
-# 🛠️ Bridge node Install (testnet)
-~~~bash 
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installbridgetest.sh)
-~~~
-# 🛠️ Bridge node Install (mainnet)
-~~~bash 
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/installbridgemain.sh)
-~~~
+### ⚙️ Full Node Setup
+A **Full Node** ensures complete data availability and validation on the Celestia mainnet.
+```bash
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/setup_fullnode_mainnet.sh)
+```
 
----
----
+### ⚙️ Bridge Node Setup
+Configure a **Bridge Node** to facilitate interoperability between the mainnet and other networks.
+```bash 
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/setup_bridge_mainnet.sh)
+```
 
-# 📋 Upgrade celestia test app
-~~~bash
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgradeapp.sh)
-~~~
-# 📋 Upgrade celestia main app 
-~~~bash
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgradeappmain.sh)
-~~~
+### 🔄 Upgrade Mainnet Application
+Keep your Celestia application on the mainnet updated with the latest features and security fixes.
+```bash
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgrade_mainnet_app.sh)
+```
 
----
-
-# 📋 Upgrade celestia test node
-~~~bash
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgradenode.sh)
-~~~
-# 📋 Upgrade celestia main node
-~~~bash
-source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgradenodemain.sh)
-~~~
+### 🔄 Upgrade Mainnet Node
+Upgrade your mainnet node to ensure compatibility with the latest protocol updates.
+```bash
+source <(curl -s https://raw.githubusercontent.com/validexis/Celestia/main/upgrade_mainnet_node.sh)
+```
 
 ---
 
 ## 📚 Additional Information
-For more details, visit the (https://services.validexis.com/mainnets/celestia) or open an issue for questions or support.
+For more details, visit the [Celestia Documentation](https://services.validexis.com/mainnets/celestia) or open an issue for questions or support.
+
+### Useful Resources
+- [Celestia Whitepaper](https://celestia.org/whitepaper) - Learn more about the architecture and vision behind Celestia.
+- [Community Forum](https://forum.celestia.org) - Join discussions with other developers and node operators.
+- [Developer Tools](https://docs.celestia.org/tools) - Explore tools and libraries to interact with Celestia.
+
