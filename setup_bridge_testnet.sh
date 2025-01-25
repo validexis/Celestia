@@ -18,36 +18,20 @@ make build
 sudo make install 
 make cel-key
 
-mv $HOME/celestia-node/cel-key /usr/local/bin/ 
-cel-key add bridge_wallet --keyring-backend test --node.type bridge --p2p.network mocha
-cel-key list --node.type bridge --keyring-backend test --p2p.network mocha
-celestia bridge init \
-  --p2p.network mocha \
-  --core.ip http://localhost \
-  --core.rpc.port 26657 \
-  --core.grpc.port 9090 \
-  --gateway \
-  --gateway.addr 0.0.0.0 \
-  --gateway.port 26659 \
-  --rpc.addr 0.0.0.0 \
-  --rpc.port 26658 \
-  --keyring.keyname bridge_wallet
+celestia bridge init --core.ip localhost --p2p.network mocha
 
-sudo tee <<EOF >/dev/null /etc/systemd/system/celestia-bridge.service
+cd $HOME/celestia-node
+./cel-key list --node.type bridge --keyring-backend test --p2p.network mocha
+
+sudo tee /etc/systemd/system/celestia-bridge.service > /dev/null <<EOF
 [Unit]
-Description=celestia-bridge Cosmos daemon
+Description=celestia Bridge
 After=network-online.target
 ​[Service]
 User=$USER
 ExecStart=$(which celestia) bridge start \
-  --p2p.network mocha --archival \
-  --gateway \
-  --gateway.addr 0.0.0.0 \
-  --gateway.port 26659 \
-  --metrics.tls=true \
-  --metrics \
-  --metrics.endpoint otel.mocha.celestia.observer
-  --keyring.keyname bridge_wallet
+--p2p.network mocha --archival \
+--metrics.tls=true --metrics --metrics.endpoint otel.mocha.celestia.observer
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=65535
