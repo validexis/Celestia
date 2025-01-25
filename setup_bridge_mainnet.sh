@@ -33,7 +33,6 @@ celestia bridge init \
   --rpc.port 26658 \
   --keyring.accname bridge_wallet
 
-
 sudo tee /etc/systemd/system/celestia-bridge.service > /dev/null <<EOF
 [Unit]
 Description=celestia Bridge
