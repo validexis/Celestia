@@ -18,20 +18,10 @@ make build
 sudo make install 
 make cel-key
 
-mv $HOME/celestia-node/cel-key /usr/local/bin/ 
-cel-key add bridge_wallet --keyring-backend test --node.type bridge --p2p.network celestia
-cel-key list --node.type bridge --keyring-backend test --p2p.network celestia
-celestia bridge init \
-  --p2p.network celestia \
-  --core.ip http://localhost \
-  --core.rpc.port 26657 \
-  --core.grpc.port 9090 \
-  --gateway \
-  --gateway.addr 0.0.0.0 \
-  --gateway.port 26659 \
-  --rpc.addr 0.0.0.0 \
-  --rpc.port 26658 \
-  --keyring.accname bridge_wallet
+celestia bridge init --core.ip localhost
+
+cd $HOME/celestia-node
+./cel-key list --node.type bridge --keyring-backend test
 
 sudo tee /etc/systemd/system/celestia-bridge.service > /dev/null <<EOF
 [Unit]
@@ -44,7 +34,7 @@ ExecStart=$(which celestia) bridge start --archival \
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=65535
-[Install]
+​[Install]
 WantedBy=multi-user.target
 EOF
 
