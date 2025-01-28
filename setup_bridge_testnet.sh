@@ -13,7 +13,7 @@ cd $HOME
 rm -rf celestia-node
 git clone https://github.com/celestiaorg/celestia-node
 cd celestia-node/
-git checkout tags/v0.20.4-mocha
+git checkout tags/v0.21.3-mocha
 make build 
 sudo make install 
 make cel-key
