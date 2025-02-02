@@ -3,7 +3,7 @@
 A curated list of tools for Celestia, including guides, scripts, bots, security solutions, and more.  
 
 ## 🚀 Table of Contents  
-- [Security](#security)  
+- [Security and Monitoring](#security)  
 - [Guides](#guides)  
 - [Scripts](#scripts)  
 - [Bots](#bots)  
@@ -11,6 +11,12 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
 
 ---
 
-## 🔐 <a name="security"></a> Security  
-- [TMKMS for Remote Signing](https://services.validexis.com/validator-security-our-approach-and-protection-measures/tmkms-for-remote-signing) — Secure remote signing solution for validators.  
-- [Horcrux](https://services.validexis.com/validator-security-our-approach-and-protection-measures/horcrux) — Helps with distributed key management and signing.  
+## 🔐 Security and Monitoring
+
+### 🔒 Validator Security
+For best practices and detailed instructions on securing your validator nodes, visit our guide on [Validator Security: Our Approach and Protection Measures](https://services.validexis.com/validator-security-our-approach-and-protection-measures).
+
+### 📊 Node Monitoring
+Set up monitoring to ensure your nodes are running optimally. Check out the [Node Monitoring Guide](https://services.validexis.com/monitoring) for tools and instructions.
+
+---
