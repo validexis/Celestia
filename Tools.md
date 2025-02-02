@@ -25,7 +25,7 @@ Set up monitoring to ensure your nodes are running optimally. Check out the [Nod
 > *"Save time with powerful scripts for automation."*  
 
 ### 🛠 Celestia Setup Scripts  
-⚙️ **Validator Node Setup** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-validator-node-setup) | [Mainnet](#mainnet-setup)  
+⚙️ **Validator Node Setup** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-validator-node-setup) | [Mainnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-validator-node-setup-1)  
 ⚙️ **Full Node Setup** → [Testnet](#testnet-setup) | [Mainnet](#mainnet-setup)  
 ⚙️ **Bridge Node Setup** → [Testnet](#testnet-setup) | [Mainnet](#mainnet-setup)  
 
