@@ -12,5 +12,5 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
 ---
 
 ## 🔐 <a name="security"></a> Security  
-- [TMKMS for Remote Signing]([link](https://services.validexis.com/validator-security-our-approach-and-protection-measures/tmkms-for-remote-signing)) — short description  
-- [Horcrux][(link](https://services.validexis.com/validator-security-our-approach-and-protection-measures/horcrux)) — helps with XYZ  
+- [TMKMS for Remote Signing](https://services.validexis.com/validator-security-our-approach-and-protection-measures/tmkms-for-remote-signing) — Secure remote signing solution for validators.  
+- [Horcrux](https://services.validexis.com/validator-security-our-approach-and-protection-measures/horcrux) — Helps with distributed key management and signing.  
