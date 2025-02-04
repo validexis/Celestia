@@ -22,8 +22,8 @@ celestia-appd config node tcp://localhost:26657
 ​
 celestia-appd init Node --chain-id celestia
 
-curl -Ls https://snapshots.kjnodes.com/celestia/genesis.json > $HOME/.celestia-app/config/genesis.json
-curl -Ls https://snapshots.kjnodes.com/celestia/addrbook.json > $HOME/.celestia-app/config/addrbook.json
+wget -O $HOME/.celestia-app/config/genesis.json https://mainnets.validexis.com/celestia/genesis.json
+wget -O $HOME/.celestia-app/config/addrbook.json https://mainnets.validexis.com/celestia/addrbook.json
 
 sed -i -e "s|^seeds *=.*|seeds = \"400f3d9e30b69e78a7fb891f60d76fa3c73f0ecc@celestia.rpc.kjnodes.com:12059\"|" $HOME/.celestia-app/config/config.toml
 sed -i -e "s|^target_height_duration *=.*|timeout_commit = \"11s\"|" $HOME/.celestia-app/config/config.toml
