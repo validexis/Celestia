@@ -33,11 +33,16 @@ Access key infrastructure services to interact with the Celestia blockchain.
 ### 📡 Peer & AddrBook Services  
 Reliable peer connections and network synchronization resources.  
 
-- **Peers List:**  
- ```bash
-  [60d481edb7e49efe01fa0b49a346cf9f8400db19@peer-celestia-mainnet.validexis.com:26656]
- 
- 
+ **Peers List:**  
+60d481edb7e49efe01fa0b49a346cf9f8400db19@peer-celestia-mainnet.validexis.com:26656
+
+- **AddrBook (Updated Hourly):**  
+wget -O $HOME/.celestia-app/config/addrbook.json https://mainnets.validexis.com/celestia/
+
+- **Genesis File:**  
+wget -O $HOME/.celestia-app/config/genesis.json https://mainnets.validexis.com/celestia/
+
+
 
 ---
 
