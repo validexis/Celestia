@@ -23,7 +23,7 @@ Set up monitoring to ensure your nodes are running optimally. Check out the [Nod
 
 ## 🔧 Services
 
-Celestia network services provided by Validexis, including API, RPC, gRPC, and peer connectivity solutions.  
+Celestia network services provided by Validexis, including API, RPC, gRPC, and peer connectivity solutions, and snapshots.  
 
 ### 🌐 API & RPC Services  
 Access key infrastructure services to interact with the Celestia blockchain.  
@@ -37,8 +37,9 @@ Access key infrastructure services to interact with the Celestia blockchain.
 - **API Endpoint:** [api-celestia-testnet.validexis.com](https://api-celestia-testnet.validexis.com)  
 - **RPC Endpoint:** [rpc-celestia-testnet.validexis.com](https://rpc-celestia-testnet.validexis.com)
 
+
   
-## 📡 Peer & AddrBook Services  
+### 📡 Peer & AddrBook Services  
 Reliable peer connections and network synchronization resources.  
 
 ### 🟢 Mainnet
@@ -59,7 +60,11 @@ Reliable peer connections and network synchronization resources.
        wget -O $HOME/.celestia-app/config/addrbook.json https://testnets.validexis.com/celestia/addrbook.json
 
 ### Genesis File:
-       wget -O $HOME/.celestia-app/config/genesis.json https://testnets.validexis.com/celestia/genesis.json       
+       wget -O $HOME/.celestia-app/config/genesis.json https://testnets.validexis.com/celestia/genesis.json
+
+
+### 📸 Snapshots
+Download the latest snapshots for fast synchronization.      
 
 ---       
 ---
@@ -72,16 +77,16 @@ Reliable peer connections and network synchronization resources.
 ---
 
 ## ⚙️ Automation & Scripts  
-> *"Save time with powerful scripts for automation."*  
+Save time with powerful scripts for automation.  
 
 ###  Celestia Setup Scripts  
 ⚙️ **Validator Node Setup** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-validator-node-setup) | [Mainnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-validator-node-setup-1)  
-⚙️ **Full Node Setup** → [Testnet](#testnet-setup) | [Mainnet](#mainnet-setup)  
-⚙️ **Bridge Node Setup** → [Testnet](#testnet-setup) | [Mainnet](#mainnet-setup)  
+⚙️ **Full Node Setup** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-full-node-setup) | [Mainnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-full-node-setup-1)  
+⚙️ **Bridge Node Setup** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-bridge-node-setup) | [Mainnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-bridge-node-setup-1)  
 
 ###  Celestia Upgrade Scripts  
-🔄 **Upgrade Celestia App** → [Testnet](#upgrade-scripts) | [Mainnet](#upgrade-scripts)  
-🔄 **Upgrade Node** → [Testnet](#upgrade-scripts) | [Mainnet](#upgrade-scripts)  
+🔄 **Upgrade Celestia App** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#-upgrade-testnet-app) | [Mainnet](https://github.com/validexis/Celestia/blob/main/README.md#-upgrade-mainnet-app)  
+🔄 **Upgrade Node** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#-upgrade-testnet-node) | [Mainnet](https://github.com/validexis/Celestia/blob/main/README.md#-upgrade-mainnet-node)  
 
 ---
 
