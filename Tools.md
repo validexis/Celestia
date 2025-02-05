@@ -21,7 +21,23 @@ Set up monitoring to ensure your nodes are running optimally. Check out the [Nod
 
 ## 🔧 Services
 
+Celestia network services provided by Validexis, including API, RPC, gRPC, and peer connectivity solutions.  
 
+### 🌐 API & RPC Services  
+Access key infrastructure services to interact with the Celestia blockchain.  
+
+- **API Endpoint:** [api-celestia-mainnet.validexis.com](https://api-celestia-mainnet.validexis.com/)  
+- **RPC Endpoint:** [rpc-celestia-mainnet.validexis.com](https://rpc-celestia-mainnet.validexis.com/)  
+- **gRPC Endpoint:** [grpc-celestia-mainnet.validexis.com:443](grpc-celestia-mainnet.validexis.com:443)  
+
+### 📡 Peer & AddrBook Services  
+Reliable peer connections and network synchronization resources.  
+
+- **Peers List:**  
+ ```bash
+  [60d481edb7e49efe01fa0b49a346cf9f8400db19@peer-celestia-mainnet.validexis.com:26656]
+ 
+ 
 
 ---
 
