@@ -4,7 +4,7 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
 
 ## Table of Contents  
 
-   🔐 **[Security and Monitoring](https://github.com/validexis/Celestia/blob/main/Tools.md#-security-and-monitoring)** ・ 🔧 **[Services](#other-tools)** ・ 📖 **[Guides](#guides)** ・ ⚙️ **[Automation & Scripts](https://github.com/validexis/Celestia/blob/main/Tools.md#%EF%B8%8F-automation--scripts)** ・ 🤖 **[Bots](#bots)**
+   🔐 **[Security and Monitoring](https://github.com/validexis/Celestia/blob/main/Tools.md#-security-and-monitoring)** ・ 🔧 **[Services](https://github.com/validexis/Celestia/blob/main/Tools.md#-services)** ・ 📖 **[Guides](https://github.com/validexis/Celestia/blob/main/Tools.md#-services)** ・ ⚙️ **[Automation & Scripts](https://github.com/validexis/Celestia/blob/main/Tools.md#%EF%B8%8F-automation--scripts)** ・ 🤖 **[Bots](#bots)**
   
 
 ---
@@ -42,23 +42,23 @@ Access key infrastructure services to interact with the Celestia blockchain.
 Reliable peer connections and network synchronization resources.  
 
 ### Mainnet
-**Peers:**    
+### Peers:
        60d481edb7e49efe01fa0b49a346cf9f8400db19@peer-celestia-mainnet.validexis.com:26656
 
-**AddrBook (Updated Hourly):** 
+### AddrBook (Updated Hourly):
        wget -O $HOME/.celestia-app/config/addrbook.json https://mainnets.validexis.com/celestia/addrbook.json
 
-### 📜 Genesis File:
+### Genesis File:
        wget -O $HOME/.celestia-app/config/genesis.json https://mainnets.validexis.com/celestia/genesis.json
 
 ### Testnet
-**Peers:**    
+### Peers:    
        fac5acd6540dd788dc804c8bd307b5169e666e68@peer-celestia-testnet.validexis.com:26656
 
-**AddrBook (Updated Hourly):** 
+### AddrBook (Updated Hourly): 
        wget -O $HOME/.celestia-app/config/addrbook.json https://testnets.validexis.com/celestia/addrbook.json
 
-### 📜 Genesis File:
+### Genesis File:
        wget -O $HOME/.celestia-app/config/genesis.json https://testnets.validexis.com/celestia/genesis.json       
 
 ---       
