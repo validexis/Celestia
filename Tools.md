@@ -28,12 +28,12 @@ Celestia network services provided by Validexis, including API, RPC, gRPC, and p
 ### 🌐 API & RPC Services  
 Access key infrastructure services to interact with the Celestia blockchain.  
 
-### Mainnet  
+### 🟢 Mainnet  
 - **API Endpoint:** [api-celestia-mainnet.validexis.com](https://api-celestia-mainnet.validexis.com)  
 - **RPC Endpoint:** [rpc-celestia-mainnet.validexis.com](https://rpc-celestia-mainnet.validexis.com)  
 - **gRPC Endpoint:** grpc-celestia-mainnet.validexis.com:443  
 
-### Testnet  
+### 🔵 Testnet  
 - **API Endpoint:** [api-celestia-testnet.validexis.com](https://api-celestia-testnet.validexis.com)  
 - **RPC Endpoint:** [rpc-celestia-testnet.validexis.com](https://rpc-celestia-testnet.validexis.com)
 
@@ -41,7 +41,7 @@ Access key infrastructure services to interact with the Celestia blockchain.
 ## 📡 Peer & AddrBook Services  
 Reliable peer connections and network synchronization resources.  
 
-### Mainnet
+### 🟢 Mainnet
 ### Peers:
        60d481edb7e49efe01fa0b49a346cf9f8400db19@peer-celestia-mainnet.validexis.com:26656
 
@@ -51,7 +51,7 @@ Reliable peer connections and network synchronization resources.
 ### Genesis File:
        wget -O $HOME/.celestia-app/config/genesis.json https://mainnets.validexis.com/celestia/genesis.json
 
-### Testnet
+### 🔵 Testnet
 ### Peers:    
        fac5acd6540dd788dc804c8bd307b5169e666e68@peer-celestia-testnet.validexis.com:26656
 
@@ -74,12 +74,12 @@ Reliable peer connections and network synchronization resources.
 ## ⚙️ Automation & Scripts  
 > *"Save time with powerful scripts for automation."*  
 
-### 🛠 Celestia Setup Scripts  
+###  Celestia Setup Scripts  
 ⚙️ **Validator Node Setup** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-validator-node-setup) | [Mainnet](https://github.com/validexis/Celestia/blob/main/README.md#%EF%B8%8F-validator-node-setup-1)  
 ⚙️ **Full Node Setup** → [Testnet](#testnet-setup) | [Mainnet](#mainnet-setup)  
 ⚙️ **Bridge Node Setup** → [Testnet](#testnet-setup) | [Mainnet](#mainnet-setup)  
 
-### 🔄 Celestia Upgrade Scripts  
+###  Celestia Upgrade Scripts  
 🔄 **Upgrade Celestia App** → [Testnet](#upgrade-scripts) | [Mainnet](#upgrade-scripts)  
 🔄 **Upgrade Node** → [Testnet](#upgrade-scripts) | [Mainnet](#upgrade-scripts)  
 
