@@ -40,7 +40,7 @@ Reliable peer connections and network synchronization resources.
 wget -O $HOME/.celestia-app/config/addrbook.json https://mainnets.validexis.com/celestia/addrbook.json
 
 ### 📜 Genesis File:
-wget -O $HOME/.celestia-app/config/genesis.json https://mainnets.validexis.com/celestia/genesis.json
+       wget -O $HOME/.celestia-app/config/genesis.json https://mainnets.validexis.com/celestia/genesis.json
 ---
 
 ## 📖 Guides
