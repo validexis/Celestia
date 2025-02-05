@@ -77,8 +77,10 @@ Download the latest snapshots for fast synchronization.
 
 ## 📖 Guides
 
-Master Celestia step by step with these comprehensive guides.
+Master Celestia with detailed step-by-step guides. These tutorials will help you set up and configure nodes, understand the infrastructure, and participate in the network.
 
+🔗 **Mainnet Guides** → [View](https://services.validexis.com/mainnets/celestia) 
+🔗 **Testnet Guides** → [View](https://services.validexis.com/testnets/celestia) 
 
 ---
 ---
