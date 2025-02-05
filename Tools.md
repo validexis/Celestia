@@ -7,7 +7,10 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
 - [Guides](#guides)  
 - [Scripts](#scripts)  
 - [Bots](#bots)  
-- [Other Useful Tools](#other-tools)  
+- [Other Useful Tools](#other-tools)
+
+ 🔐 **[Security](#security)** ・ 📖 **[Guides](#guides)** ・ ⚙️ **[Scripts](#scripts)** ・ 🤖 **[Bots](#bots)** ・ 🎯 **[Services](#other-tools)**
+  
 
 ---
 
