@@ -4,7 +4,7 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
 
 ## 🚀 Table of Contents  
 
-      🔐 **[Security](#security)** ・ 🔧 **[Services](#other-tools)** ・ 📖 **[Guides](#guides)** ・ ⚙️ **[Scripts](#scripts)** ・ 🤖 **[Bots](#bots)**
+   🔐 **[Security](#security)** ・ 🔧 **[Services](#other-tools)** ・ 📖 **[Guides](#guides)** ・ ⚙️ **[Scripts](#scripts)** ・ 🤖 **[Bots](#bots)**
   
 
 ---
