@@ -4,7 +4,7 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
 
 ## 🚀 Table of Contents  
 
-   🔐 **[Security](#security)** ・ 🔧 **[Services](#other-tools)** ・ 📖 **[Guides](#guides)** ・ ⚙️ **[Scripts](#scripts)** ・ 🤖 **[Bots](#bots)**
+   🔐 **[Security and Monitoring](https://github.com/validexis/Celestia/blob/main/Tools.md#-security-and-monitoring)** ・ 🔧 **[Services](#other-tools)** ・ 📖 **[Guides](#guides)** ・ ⚙️ **[Automation & Scripts](https://github.com/validexis/Celestia/blob/main/Tools.md#%EF%B8%8F-automation--scripts)** ・ 🤖 **[Bots](#bots)**
   
 
 ---
@@ -19,6 +19,18 @@ Set up monitoring to ensure your nodes are running optimally. Check out the [Nod
 
 ---
 
+## 🔧 Services
+
+
+
+---
+
+## 📖 Guides
+
+
+
+---
+
 ## ⚙️ Automation & Scripts  
 > *"Save time with powerful scripts for automation."*  
 
@@ -30,3 +42,7 @@ Set up monitoring to ensure your nodes are running optimally. Check out the [Nod
 ### 🔄 Celestia Upgrade Scripts  
 🔄 **Upgrade Celestia App** → [Testnet](#upgrade-scripts) | [Mainnet](#upgrade-scripts)  
 🔄 **Upgrade Node** → [Testnet](#upgrade-scripts) | [Mainnet](#upgrade-scripts)  
+
+---
+
+## 🤖 Bots
