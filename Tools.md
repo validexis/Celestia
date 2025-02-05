@@ -8,6 +8,7 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
   
 
 ---
+---
 
 ## 🔐 Security and Monitoring
 
@@ -18,6 +19,7 @@ For best practices and detailed instructions on securing your validator nodes, v
 Set up monitoring to ensure your nodes are running optimally. Check out the [Node Monitoring Guide](https://services.validexis.com/monitoring) for tools and instructions.
 
 ---
+---
 
 ## 🔧 Services
 
@@ -26,27 +28,47 @@ Celestia network services provided by Validexis, including API, RPC, gRPC, and p
 ### 🌐 API & RPC Services  
 Access key infrastructure services to interact with the Celestia blockchain.  
 
-- **API Endpoint:** [api-celestia-mainnet.validexis.com](https://api-celestia-mainnet.validexis.com/)  
-- **RPC Endpoint:** [rpc-celestia-mainnet.validexis.com](https://rpc-celestia-mainnet.validexis.com/)  
-- **gRPC Endpoint:** [grpc-celestia-mainnet.validexis.com:443](grpc-celestia-mainnet.validexis.com:443)  
+### Mainnet  
+- **API Endpoint:** [api-celestia-mainnet.validexis.com](https://api-celestia-mainnet.validexis.com)  
+- **RPC Endpoint:** [rpc-celestia-mainnet.validexis.com](https://rpc-celestia-mainnet.validexis.com)  
+- **gRPC Endpoint:** grpc-celestia-mainnet.validexis.com:443  
 
-### 📡 Peer & AddrBook Services  
+### Testnet  
+- **API Endpoint:** [api-celestia-testnet.validexis.com](https://api-celestia-testnet.validexis.com)  
+- **RPC Endpoint:** [rpc-celestia-testnet.validexis.com](https://rpc-celestia-testnet.validexis.com)
+
+  
+## 📡 Peer & AddrBook Services  
 Reliable peer connections and network synchronization resources.  
 
-### 🔗 Peers List:  
+### Mainnet
+**Peers:**    
        60d481edb7e49efe01fa0b49a346cf9f8400db19@peer-celestia-mainnet.validexis.com:26656
 
-### 📂 AddrBook (Updated Hourly):
+**AddrBook (Updated Hourly):** 
        wget -O $HOME/.celestia-app/config/addrbook.json https://mainnets.validexis.com/celestia/addrbook.json
 
 ### 📜 Genesis File:
        wget -O $HOME/.celestia-app/config/genesis.json https://mainnets.validexis.com/celestia/genesis.json
+
+### Testnet
+**Peers:**    
+       fac5acd6540dd788dc804c8bd307b5169e666e68@peer-celestia-testnet.validexis.com:26656
+
+**AddrBook (Updated Hourly):** 
+       wget -O $HOME/.celestia-app/config/addrbook.json https://testnets.validexis.com/celestia/addrbook.json
+
+### 📜 Genesis File:
+       wget -O $HOME/.celestia-app/config/genesis.json https://testnets.validexis.com/celestia/genesis.json       
+
+---       
 ---
 
 ## 📖 Guides
 
 
 
+---
 ---
 
 ## ⚙️ Automation & Scripts  
