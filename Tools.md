@@ -12,6 +12,8 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
 
 ## 🔐 Security and Monitoring
 
+Security first! Protect your Celestia node and monitor its health.
+
 ### 🔒 Validator Security
 For best practices and detailed instructions on securing your validator nodes, visit our guide on [Validator Security: Our Approach and Protection Measures](https://services.validexis.com/validator-security-our-approach-and-protection-measures).
 
@@ -25,7 +27,8 @@ Set up monitoring to ensure your nodes are running optimally. Check out the [Nod
 
 Celestia network services provided by Validexis, including API, RPC, gRPC, and peer connectivity solutions, and snapshots.  
 
-### 🌐 API & RPC Services  
+### 🌐 API & RPC Services 
+
 Access key infrastructure services to interact with the Celestia blockchain.  
 
 ### 🟢 Mainnet  
@@ -64,19 +67,24 @@ Reliable peer connections and network synchronization resources.
 
 
 ### 📸 Snapshots
-Download the latest snapshots for fast synchronization.      
+Download the latest snapshots for fast synchronization.
+- **Validator Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot) | [Mainnet](https://services.validexis.com/mainnets/celestia/snapshot)  
+- **Full Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot)
+- **Bridge Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot)
 
 ---       
 ---
 
 ## 📖 Guides
 
+Master Celestia step by step with these comprehensive guides.
 
 
 ---
 ---
 
 ## ⚙️ Automation & Scripts  
+
 Save time with powerful scripts for automation.  
 
 ###  Celestia Setup Scripts  
@@ -89,5 +97,11 @@ Save time with powerful scripts for automation.
 🔄 **Upgrade Node** → [Testnet](https://github.com/validexis/Celestia/blob/main/README.md#-upgrade-testnet-node) | [Mainnet](https://github.com/validexis/Celestia/blob/main/README.md#-upgrade-mainnet-node)  
 
 ---
+---
 
 ## 🤖 Bots
+
+Stay informed with smart bots & alerts.
+
+
+---
