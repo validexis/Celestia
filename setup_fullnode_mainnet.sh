@@ -13,7 +13,7 @@ cd $HOME
 rm -rf celestia-app 
 git clone https://github.com/celestiaorg/celestia-app.git 
 cd celestia-app 
-git checkout v3.2.0
+git checkout v3.3.1
 make install
 
 celestia-appd config chain-id celestia
@@ -28,6 +28,7 @@ wget -O $HOME/.celestia-app/config/addrbook.json https://mainnets.validexis.com/
 sed -i -e "s|^seeds *=.*|seeds = \"400f3d9e30b69e78a7fb891f60d76fa3c73f0ecc@celestia.rpc.kjnodes.com:12059\"|" $HOME/.celestia-app/config/config.toml
 sed -i -e "s|^target_height_duration *=.*|timeout_commit = \"11s\"|" $HOME/.celestia-app/config/config.toml
 sed -i -e "s|^minimum-gas-prices *=.*|minimum-gas-prices = \"0.002utia\"|" $HOME/.celestia-app/config/app.toml
+sed -i -e "s/^indexer *=.*/indexer = \"kv\"/" $HOME/.celestia-app/config/config.toml
 
 sed -i \
   -e 's|^pruning *=.*|pruning = "nothing"|' \
