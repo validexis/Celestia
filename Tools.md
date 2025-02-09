@@ -100,6 +100,8 @@ Save time with powerful scripts for automation.
 
 ---
 ---
+###  Contribution 
+🚨 **Issue** → [TX rejected](https://github.com/celestiaorg/celestia-app/issues/4313) 
 
 ## 🤖 Bots
 
