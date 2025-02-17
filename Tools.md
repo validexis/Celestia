@@ -100,12 +100,26 @@ Save time with powerful scripts for automation.
 
 ---
 ---
+
 ###  Contribution 
 🚨 **Issue** → [TX rejected](https://github.com/celestiaorg/celestia-app/issues/4313) 
 
+---
+---
+
 ## 🤖 Bots
 
-Stay informed with smart bots & alerts.
+We present to you [Celestia UltraBot](https://validexis.com/celestiaultrabot) - a versatile tool for participants in the Celestia ecosystem. The bot provides real-time information on staking, validator monitoring, and AI-powered solutions.
+
+With Celestia UltraBot, you can:
+✅ Track validator performance
+✅ Receive detailed earnings reports
+✅ Manage wallet balances
+✅ Get instant notifications about key network events
+✅ Utilize AI support for technical issues
+✅ Stay updated on governance proposals and network news
+
+All features are easily accessible via Telegram, ensuring seamless access to essential information anytime! 🚀
 
 
 ---
