@@ -4,7 +4,7 @@ A curated list of tools for Celestia, including guides, scripts, bots, security 
 
 ## Table of Contents  
 
-   🔐 **[Security and Monitoring](https://github.com/validexis/Celestia/blob/main/Tools.md#-security-and-monitoring)** ・ 🔧 **[Services](https://github.com/validexis/Celestia/blob/main/Tools.md#-services)** ・ 📖 **[Guides](https://github.com/validexis/Celestia/blob/main/Tools.md#-guides)** ・ ⚙️ **[Automation & Scripts](https://github.com/validexis/Celestia/blob/main/Tools.md#%EF%B8%8F-automation--scripts)** ・ 🤖 **[Bots](#bots)**
+   🔐 **[Security and Monitoring](https://github.com/validexis/Celestia/blob/main/Tools.md#-security-and-monitoring)** ・ 🔧 **[Services](https://github.com/validexis/Celestia/blob/main/Tools.md#-services)** ・ 📖 **[Guides](https://github.com/validexis/Celestia/blob/main/Tools.md#-guides)** ・ ⚙️ **[Automation & Scripts](https://github.com/validexis/Celestia/blob/main/Tools.md#%EF%B8%8F-automation--scripts)** ・ 🤖 **[Bots](https://github.com/validexis/Celestia/blob/main/Tools.md#-bots)**
   
 
 ---
