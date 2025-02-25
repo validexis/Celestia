@@ -131,6 +131,6 @@ Stay connected with the community and key announcements:
 
 ## X Activities  
 Tracking key activities and important posts on X (Twitter):  
-1. [Update Announcement](https://x.com/validexis/status/1894354657708786121)  
+1. [Announcement](https://x.com/validexis/status/1894354657708786121)  
 2. [Celestia Insights](https://x.com/validexis/status/1894354657708786121)
    
