@@ -125,11 +125,11 @@ All features are easily accessible via Telegram, ensuring seamless access to ess
 ---
 ---
 
-## 🌍 Community  
+## Community  
 Stay connected with the community and key announcements:  
 - [Celestia Tweet](https://x.com/validexis/status/1894354657708786121)
 
-## 🚀 X Activities  
+## X Activities  
 Tracking key activities and important posts on X (Twitter):  
 1. [Update Announcement](https://x.com/validexis/status/1894354657708786121)  
 2. [Celestia Insights](https://x.com/validexis/status/1894354657708786121)
