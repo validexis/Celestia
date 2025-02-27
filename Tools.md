@@ -109,7 +109,7 @@ Save time with powerful scripts for automation.
 
 ## 🤖 Bots
 
-We present to you [Celestia UltraBot](https://validexis.com/celestiaultrabot) - a versatile tool for participants in the Celestia ecosystem. The bot provides real-time information on staking, validator monitoring, and AI-powered solutions.
+We present to you [CelestiaUltraBot](https://validexis.com/celestiaultrabot) - a versatile tool for participants in the Celestia ecosystem. The bot provides real-time information on staking, validator monitoring, and AI-powered solutions.
 
 With Celestia UltraBot, you can:  
 ✅ Track validator performance  
