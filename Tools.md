@@ -70,7 +70,7 @@ Reliable peer connections and network synchronization resources.
 Download the latest snapshots for fast synchronization.
 - **Validator Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot) | [Mainnet](https://services.validexis.com/mainnets/celestia/snapshot)  
 - **Full Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot)
-- **Bridge Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot)
+- **Bridge Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot) | [Mainnet](https://services.validexis.com/mainnets/celestia/snapshot)  
 
 ---       
 ---
@@ -133,4 +133,5 @@ Stay connected with the community and key announcements:
 Tracking key activities and important posts on X (Twitter):  
 1. [Announcement 1](https://x.com/validexis/status/1894354657708786121) – **Celestia Bridges: A New Era of Scalability & Security**  
 2. [Announcement 2](https://x.com/validexis/status/1894654995074592833) – **Effortless validator management!** 
-3. [Announcement 3](https://x.com/validexis/status/1895033853309227323) – **Effortless reward tracking for @celestia!**   
+3. [Announcement 3](https://x.com/validexis/status/1895033853309227323) – **Effortless reward tracking!**
+4. [Announcement 4](https://x.com/validexis/status/1895094350562107717) – **Stay on top of your validator’s status!**      
