@@ -127,7 +127,7 @@ All features are easily accessible via Telegram, ensuring seamless access to ess
 
 ## Community  
 Stay connected with the community and key announcements:  
-- [Celestia Tweet](https://x.com/validexis/status/1894354657708786121)
+- [Celestia Bridges: A New Era of Scalability & Security](https://medium.com/@validexisglobal/celestia-bridges-a-new-era-of-scalability-and-security-in-the-blockchain-space-1b178aa7d575)
 
 ## X Activities  
 Tracking key activities and important posts on X (Twitter):  
