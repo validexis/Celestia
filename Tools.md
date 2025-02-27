@@ -133,4 +133,4 @@ Stay connected with the community and key announcements:
 Tracking key activities and important posts on X (Twitter):  
 1. [Announcement 1](https://x.com/validexis/status/1894354657708786121) – **Celestia Bridges: A New Era of Scalability & Security**  
 2. [Announcement 2](https://x.com/validexis/status/1894654995074592833) – **Effortless validator management!** 
-3. [Announcement 3](https://x.com/validexis/status/1895033853309227323) – **Effortless reward tracking for @celestia**   
+3. [Announcement 3](https://x.com/validexis/status/1895033853309227323) – **Effortless reward tracking for @celestia!**   
