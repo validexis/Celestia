@@ -69,7 +69,7 @@ Reliable peer connections and network synchronization resources.
 ### 📸 Snapshots
 Download the latest snapshots for fast synchronization.
 - **Validator Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot) | [Mainnet](https://services.validexis.com/mainnets/celestia/snapshot)  
-- **Full Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot)
+- **Full Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot) | [Mainnet](https://services.validexis.com/mainnets/celestia/snapshot)
 - **Bridge Node Snapshot** → [Testnet](https://services.validexis.com/testnets/celestia/snapshot) | [Mainnet](https://services.validexis.com/mainnets/celestia/snapshot)  
 
 ---       
