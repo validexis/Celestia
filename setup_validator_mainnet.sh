@@ -13,7 +13,7 @@ cd $HOME
 rm -rf celestia-app 
 git clone https://github.com/celestiaorg/celestia-app.git 
 cd celestia-app 
-git checkout v3.7.0
+git checkout v3.8.1
 make install
 
 celestia-appd config chain-id celestia
